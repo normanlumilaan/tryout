@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="/tryout/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <title>E-commerce product page</title>
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/theme.css">
+  <script type="module" crossorigin src="./assets/js/main.js"></script>
+</head>
+<body>
+  <header class=" header">
+    <div class="header__container">
+      <div class="header__left">
+        <a href="./" class="header__logo" aria-label="Sneakers homepage">
+          <img
+            src="data:image/svg+xml,%3csvg%20width='138'%20height='20'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.217%2020c4.761%200%207.519-.753%207.519-4.606%200-3.4-3.38-4.172-6.66-4.682l-.56-.085-.279-.041-.35-.053c-2.7-.405-3.18-.788-3.18-1.471%200-.478.49-1.331%202.843-1.331%202.455%200%203.493.647%203.493%201.87v.134h4.281v-.133c0-2.389-1.35-5.238-7.774-5.238-5.952%200-7.201%202.584-7.201%204.752%200%203.097%202.763%204.086%207.223%204.675.21.028.433.054.659.081%201.669.197%203.172.42%203.172%201.585%200%201.01-1.615%201.222-3.298%201.222-2.797%200-3.784-.593-3.784-1.92v-.134H.002L0%2014.926v.317c.008.79.118%201.913%201.057%202.862C2.303%2019.362%204.712%2020%208.217%2020Zm13.21%200v-7.49c0-2.104.547-4.423%204.176-4.423%203.915%200%203.778%202.777%203.768%204.042V20h4.18v-7.768c0-2.264-.176-7.766-6.732-7.766-2.778%200-4.192.911-5.195%202.28h-.197V4.467H17.22V20h4.207Zm21.959%200c5.094%200%207.787-2.07%208.217-5.405H47.53c-.386%201.02-1.63%201.72-4.143%201.72-2.721%200-3.962-1.03-4.25-3.106h12.527c.24-2.13-.029-5.417-3.026-7.44v.005c-1.312-.915-3.056-1.465-5.251-1.465-5.24%200-8.336%202.772-8.336%207.845%200%205.17%203.02%207.846%208.336%207.846Zm4.099-9.574h-8.188c.486-1.574%201.764-2.431%204.089-2.431%202.994%200%203.755%201.267%204.099%202.431ZM70.499%2020V4.457H66.29V6.74h-.176c-1.053-1.377-2.809-2.283-5.677-2.283-6.433%200-7.225%205.293-7.253%207.635v.137c0%202.092.732%207.771%207.241%207.771%202.914%200%204.684-.818%205.734-2.169h.131V20H70.5Zm-8.854-3.623c-3.996%200-4.447-3.032-4.447-4.148%200-1.21.426-4.148%204.455-4.148%203.631%200%204.374%202.044%204.374%204.148%200%202.35-.742%204.148-4.382%204.148ZM88.826%2020l-6.529-9.045%206.588-6.488h-5.827l-6.836%206.756V0h-4.187v19.954h4.187V16.94l3.02-2.976L83.6%2020h5.226Zm9.9%200c5.094%200%207.786-2.07%208.217-5.405h-4.074c-.387%201.02-1.63%201.72-4.143%201.72-2.721%200-3.962-1.03-4.25-3.106h12.527c.24-2.13-.029-5.417-3.026-7.44v.005c-1.312-.915-3.057-1.465-5.251-1.465-5.24%200-8.336%202.772-8.336%207.845%200%205.17%203.02%207.846%208.336%207.846Zm4.098-9.574h-8.187c.485-1.574%201.763-2.431%204.089-2.431%202.994%200%203.755%201.267%204.098%202.431ZM112.76%2020v-6.97c0-2.103.931-4.542%204.05-4.542%201.33%200%202.393.236%202.785.346l.67-3.976c-.728-.16-1.626-.392-2.757-.392-2.665%200-3.622.794-4.486%202.282h-.262V4.466h-4.21V20h4.21Zm17.221%200c4.761%200%207.519-.753%207.519-4.606%200-3.4-3.38-4.172-6.66-4.682l-.56-.085-.279-.041-.349-.053c-2.701-.405-3.181-.788-3.181-1.471%200-.478.49-1.331%202.843-1.331%202.455%200%203.493.647%203.493%201.87v.134h4.282v-.133c0-2.389-1.35-5.238-7.775-5.238-5.952%200-7.201%202.584-7.201%204.752%200%203.097%202.763%204.086%207.224%204.675.21.028.432.054.658.081%201.669.197%203.172.42%203.172%201.585%200%201.01-1.615%201.222-3.298%201.222-2.796%200-3.784-.593-3.784-1.92v-.134h-4.319l-.001.301v.317c.008.79.117%201.913%201.056%202.862%201.246%201.257%203.655%201.895%207.16%201.895Z'%20fill='%231D2026'%20fill-rule='nonzero'/%3e%3c/svg%3e"
+            alt="Sneakers logo" width="138" height="20">
+        </a>
+        <main-menu>
+          <button title="Main menu" data-main-menu="toggle" class="main-menu__toggle-btn" aria-expanded="false"
+            aria-controls="main-menu-overlay" aria-label="Open main navigation">
+            <svg class="icon icon--hamburger" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 15">
+              <use href="#icon-hamburger" />
+            </svg>
+          </button>
+          <div data-main-menu="overlay" class="main-menu__overlay" id="main-menu-overlay">
+            <div data-main-menu="panel" class="main-menu__panel">
+              <button data-main-menu="toggle" class="main-menu__toggle-btn" aria-expanded="false"
+                aria-controls="main-menu-overlay" aria-label="Close main navigation">
+                <svg class="icon icon--close" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 14 14">
+                  <use href="#icon-close" />
+                </svg>
+              </button>
+              <nav class="main-menu__nav">
+                <ul class="main-menu__list">
+                  <li class="main-menu__item"><a href="#collections" class="main-menu__link">Collections</a></li>
+                  <li class="main-menu__item"><a href="#men" class="main-menu__link">Men</a></li>
+                  <li class="main-menu__item"><a href="#women" class="main-menu__link" aria-current="page">Women</a>
+                  </li>
+                  <li class="main-menu__item"><a href="#about" class="main-menu__link">About</a></li>
+                  <li class="main-menu__item"><a href="#contact" class="main-menu__link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </main-menu>
+      </div>
+      <div class="header__right">
+        <mini-cart>
+          <div class="mini-cart">
+            <modal-window class="modal-window" anchor="mini-cart-toggle">
+              <button id="mini-cart-toggle" class="mini-cart__toggle" type="button" title="View mini cart"
+                aria-label="View mini cart" data-modal-window="toggle" aria-expanded="false"
+                aria-controls="mini-cart-dialog">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 24 24">
+                  <use href="#icon-cart" />
+                </svg>
+                <span data-badge-value="" class="notif-badge" data-mini-cart="quantity" aria-live="polite"></span>
+              </button>
+              <dialog id="mini-cart-dialog" data-modal-window="dialog" class="modal-window__dialog mini-cart__dialog"
+                aria-describedby="mini-cart-dialog-desc">
+                <div class="mini-cart__titlebar">
+                  <h3 class="mini-cart__title">Cart</h3>
+                  <button class="mini-cart__toggle mini-cart__toggle--close" type="button" title="View mini cart"
+                    aria-label="Close mini cart view" data-modal-window="toggle" aria-expanded="true"
+                    aria-controls="mini-cart-dialog">
+                    <svg class="icon icon--close" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                      viewBox="0 0 14 14">
+                      <use href="#icon-close" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="mini-cart__main" data-mini-cart="main"></div>
+              </dialog>
+            </modal-window>
+            <span id="mini-cart-dialog-desc" class="sr-only">View items in cart and optionally checkout</span>
+          </div>
+        </mini-cart>
+        <div class="header__user">
+          <a href="#user-profile" class="header__user-link" aria-label="Profile profile">
+            <figure class="header__user-fig">
+              <img src="./assets/img/image-avatar.png" alt="Profile avatar">
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="product">
+      <div class="product-picture">
+        <product-gallery>
+          <div data-product-gallery="main" class="product-gallery" role="region" aria-label="Product gallery">
+            <figure class="product-gallery__current" aria-live="polite">
+              <img data-modal-window="toggle" data-product-gallery="main-img" class="product-gallery__current-img"
+                src="./assets/img/image-product-1.jpg" alt="Main view of Product 1" width="1000" height="1000">
+            </figure>
+            <button data-product-gallery="thumb" class="product-gallery__strip-btn" type="button"
+              aria-label="View Product 1 image" aria-current="true">
+              <img class="product-gallery__strip-img" src="./assets/img/image-product-1.jpg"
+                alt="Thumbnail of Product 1" width="176" height="176">
+            </button>
+            <button data-product-gallery="thumb" class="product-gallery__strip-btn" type="button"
+              aria-label="View Product 2 image">
+              <img class="product-gallery__strip-img" src="./assets/img/image-product-2.jpg"
+                alt="Thumbnail of Product 2" width="176" height="176">
+            </button>
+            <button data-product-gallery="thumb" class="product-gallery__strip-btn" type="button"
+              aria-label="View Product 3 image">
+              <img class="product-gallery__strip-img" src="./assets/img/image-product-3.jpg"
+                alt="Thumbnail of Product 3" width="176" height="176">
+            </button>
+            <button data-product-gallery="thumb" class="product-gallery__strip-btn" type="button"
+              aria-label="View Product 4 image">
+              <img class="product-gallery__strip-img" src="./assets/img/image-product-4.jpg"
+                alt="Thumbnail of Product 4" width="176" height="176">
+            </button>
+            <div data-product-gallery="nav" class="product-gallery__nav" role="group"
+              aria-label="Gallery navigation controls">
+              <button data-product-gallery="prev" class="product-gallery__nav-btn product-gallery__nav-btn--prev"
+                type="button" aria-label="Previous image">
+                <svg class="icon icon--chevron-left" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                  viewBox="0 0 13 18">
+                  <use href="#icon-chevron-left" />
+                </svg>
+              </button>
+              <button data-product-gallery="next" class="product-gallery__nav-btn product-gallery__nav-btn--next"
+                type="button" aria-label="Next image">
+                <svg class="icon icon--chevron-right" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                  viewBox="0 0 13 18">
+                  <use href="#icon-chevron-right" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <modal-window class="modal-window">
+            <dialog data-modal-window='dialog' class="modal-window__dialog product-gallery__dialog">
+
+            </dialog>
+          </modal-window>
+        </product-gallery>
+      </div>
+      <div class="product-info">
+        <div class="product-info__header">
+          <span class="product-info__brand">Sneaker Company</span>
+          <h1 class="product-info__title">Fall Limited Edition Sneakers</h1>
+        </div>
+        <div class="product-info__info">
+          <p>These low-profile sneakers are your perfect casual wear
+            companion. Featuring a durable rubber outer sole, they’ll withstand
+            everything the weather can offer.</p>
+        </div>
+        <div class="product-info__price">
+          <span class="product-info__price-current"><span>$</span>125.00</span>
+          <span class="product-info__price-discount">50%</span>
+          <span class="product-info__price-retail"><span>$</span>250.00</span>
+        </div>
+        <div class="product-info__cart">
+          <product-quantity>
+            <div class="product-quantity" role="group" aria-labelledby="product-quantity-label">
+              <span class="sr-only" id="product-quantity-label">Select product quantity</span>
+              <button data-product-quantity="decrement" title="Decrease quantity" aria-label="Decrease quantity"
+                class="btn btn--lg product-quantity__btn" type="button">
+                <svg class="icon icon--sm icon--no-stroke" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                  viewBox="0 0 12 4">
+                  <use href="#icon-minus" />
+                </svg>
+              </button>
+              <output data-product-quantity="output" id="product-quantity-output" aria-live="polite" aria-atomic="true"
+                class="product-quantity__output">0</output>
+              <button data-product-quantity="increment" title="Increase quantity" aria-label="Increase quantity"
+                class="btn btn--lg product-quantity__btn" type="button">
+                <svg class="icon icon--sm icon--no-stroke" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                  viewbox="0 0 12 12">
+                  <use href="#icon-plus" />
+                </svg>
+              </button>
+            </div>
+          </product-quantity>
+          <button class="btn btn--lg btn--primary product-info__cart-add-btn" id="product-add-to-cart-btn"
+            aria-label="Add to cart" type="button">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 22 22">
+              <use href="#icon-cart" />
+            </svg>
+            <span>Add to cart</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer"></footer>
+  <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="icon-cart">
+        <path
+          d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+          stroke-width="0" fill-rule="nonzero" />
+      </symbol>
+      <symbol id="icon-hamburger">
+        <path d="M16 12v3H0v-3h16Zm0-6v3H0V6h16Zm0-6v3H0V0h16Z" stroke-width="0" fill-rule="evenodd" />
+      </symbol>
+      <symbol id="icon-close">
+        <path
+          d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+          fill-rule="evenodd" fill="currentColor" stroke-width="0" />
+      </symbol>
+      <symbol id="icon-minus">
+        <defs>
+          <path
+            d="M11.357 3.332A.641.641 0 0 0 12 2.69V.643A.641.641 0 0 0 11.357 0H.643A.641.641 0 0 0 0 .643v2.046c0 .357.287.643.643.643h10.714Z"
+            id="icon-minus-a" />
+        </defs>
+        <use fill-rule="nonzero" xlink:href="#icon-minus-a" />
+      </symbol>
+      <symbol id="icon-plus">
+        <defs>
+          <path
+            d="M12 7.023V4.977a.641.641 0 0 0-.643-.643h-3.69V.643A.641.641 0 0 0 7.022 0H4.977a.641.641 0 0 0-.643.643v3.69H.643A.641.641 0 0 0 0 4.978v2.046c0 .356.287.643.643.643h3.69v3.691c0 .356.288.643.644.643h2.046a.641.641 0 0 0 .643-.643v-3.69h3.691A.641.641 0 0 0 12 7.022Z"
+            id="icon-plus-b" stroke-width="1" />
+        </defs>
+        <use fill-rule="nonzero" xlink:href="#icon-plus-b" />
+      </symbol>
+      <symbol id="icon-chevron-right">
+        <path d="m2 1 8 8-8 8" stroke="currentColor" fill="none" fill-rule="evenodd" />
+      </symbol>
+      <symbol id="icon-chevron-left">
+        <path d="M11 1 3 9l8 8" stroke="currentColor" fill="none" fill-rule="evenodd" />
+      </symbol>
+      <symbol id="icon-trash">
+        <defs>
+          <path
+            d="M0 2.625V1.75C0 1.334.334 1 .75 1h3.5l.294-.584A.741.741 0 0 1 5.213 0h3.571a.75.75 0 0 1 .672.416L9.75 1h3.5c.416 0 .75.334.75.75v.875a.376.376 0 0 1-.375.375H.375A.376.376 0 0 1 0 2.625Zm13 1.75V14.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 1 14.5V4.375C1 4.169 1.169 4 1.375 4h11.25c.206 0 .375.169.375.375ZM4.5 6.5c0-.275-.225-.5-.5-.5s-.5.225-.5.5v7c0 .275.225.5.5.5s.5-.225.5-.5v-7Zm3 0c0-.275-.225-.5-.5-.5s-.5.225-.5.5v7c0 .275.225.5.5.5s.5-.225.5-.5v-7Zm3 0c0-.275-.225-.5-.5-.5s-.5.225-.5.5v7c0 .275.225.5.5.5s.5-.225.5-.5v-7Z"
+            id="icon-trash-a" stroke="none" />
+        </defs>
+        <use fill-rule="nonzero" xlink:href="#icon-trash-a" />
+      </symbol>
+    </defs>
+  </svg>
+</body>
+</html>
